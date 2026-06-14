@@ -1,0 +1,106 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e5]:
+      - heading "React Component Generator" [level=1] [ref=e7]
+      - generic [ref=e9]:
+        - generic [ref=e53]:
+          - generic [ref=e54]:
+            - generic [ref=e57]: "Create a pricing card component with three tiers: Free, Pro, and Enterprise. Include a title, price, feature list, and a CTA button for each tier."
+            - img [ref=e60]
+          - generic [ref=e76]:
+            - img [ref=e79]
+            - generic [ref=e84]:
+              - generic [ref=e87]: Creating App.jsx
+              - separator [ref=e88]
+              - generic [ref=e89]:
+                - paragraph [ref=e90]: "Done! I've created a pricing card component with three tiers. The Pro tier is featured with a \"Most Popular\" badge and slightly larger scale. Each card includes:"
+                - list [ref=e91]:
+                  - listitem [ref=e92]:
+                    - strong [ref=e93]: Tier name & description
+                  - listitem [ref=e94]:
+                    - strong [ref=e95]: Price display
+                    - text: (with period for recurring plans)
+                  - listitem [ref=e96]:
+                    - strong [ref=e97]: Feature list
+                    - text: with colored dots
+                  - listitem [ref=e98]:
+                    - strong [ref=e99]: CTA button
+                    - text: with distinct styling per tier
+                - paragraph [ref=e100]: The design uses a warm off-white gradient background, bold typography, and clean borders instead of heavy shadows. The featured tier stands out with a violet accent color and elevated scale.
+        - generic [ref=e20]:
+          - textbox "Describe the React component you want to create..." [ref=e21]
+          - button [disabled] [ref=e22]:
+            - img [ref=e23]
+    - separator [ref=e26]
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - tablist [ref=e31]:
+          - tab "Preview" [selected] [ref=e32]
+          - tab "Code" [ref=e33]
+        - generic [ref=e34]:
+          - button "Sign In" [ref=e35]
+          - button "Sign Up" [ref=e36]
+      - iframe [ref=e103]:
+        - generic [ref=f4e4]:
+          - generic [ref=f4e5]:
+            - heading "Simple, Transparent Pricing" [level=1] [ref=f4e6]
+            - paragraph [ref=f4e7]: Choose the perfect plan for your needs. Always flexible to scale as you grow.
+          - generic [ref=f4e8]:
+            - generic [ref=f4e10]:
+              - heading "Free" [level=2] [ref=f4e11]
+              - paragraph [ref=f4e12]: Perfect for getting started
+              - generic [ref=f4e15]: $0
+              - list [ref=f4e16]:
+                - listitem [ref=f4e17]:
+                  - generic [ref=f4e20]: Up to 5 projects
+                - listitem [ref=f4e21]:
+                  - generic [ref=f4e24]: 1 GB storage
+                - listitem [ref=f4e25]:
+                  - generic [ref=f4e28]: Basic analytics
+                - listitem [ref=f4e29]:
+                  - generic [ref=f4e32]: Community support
+              - button "Get Started" [ref=f4e33] [cursor=pointer]
+            - generic [ref=f4e34]:
+              - generic [ref=f4e35]: MOST POPULAR
+              - generic [ref=f4e36]:
+                - heading "Pro" [level=2] [ref=f4e37]
+                - paragraph [ref=f4e38]: For growing teams
+                - generic [ref=f4e40]:
+                  - generic [ref=f4e41]: $29
+                  - generic [ref=f4e42]: /month
+                - list [ref=f4e43]:
+                  - listitem [ref=f4e44]:
+                    - generic [ref=f4e47]: Unlimited projects
+                  - listitem [ref=f4e48]:
+                    - generic [ref=f4e51]: 100 GB storage
+                  - listitem [ref=f4e52]:
+                    - generic [ref=f4e55]: Advanced analytics
+                  - listitem [ref=f4e56]:
+                    - generic [ref=f4e59]: Priority email support
+                  - listitem [ref=f4e60]:
+                    - generic [ref=f4e63]: Custom integrations
+                  - listitem [ref=f4e64]:
+                    - generic [ref=f4e67]: Team collaboration
+                - button "Start Free Trial" [ref=f4e68] [cursor=pointer]
+            - generic [ref=f4e70]:
+              - heading "Enterprise" [level=2] [ref=f4e71]
+              - paragraph [ref=f4e72]: For large organizations
+              - generic [ref=f4e75]: Custom
+              - list [ref=f4e76]:
+                - listitem [ref=f4e77]:
+                  - generic [ref=f4e80]: Everything in Pro
+                - listitem [ref=f4e81]:
+                  - generic [ref=f4e84]: Unlimited storage
+                - listitem [ref=f4e85]:
+                  - generic [ref=f4e88]: Real-time analytics
+                - listitem [ref=f4e89]:
+                  - generic [ref=f4e92]: 24/7 phone support
+                - listitem [ref=f4e93]:
+                  - generic [ref=f4e96]: Dedicated account manager
+                - listitem [ref=f4e97]:
+                  - generic [ref=f4e100]: Custom SLA
+                - listitem [ref=f4e101]:
+                  - generic [ref=f4e104]: Advanced security
+              - button "Contact Sales" [ref=f4e105] [cursor=pointer]
+          - paragraph [ref=f4e107]: All plans include a 14-day free trial. No credit card required.
+  - alert [ref=e47]

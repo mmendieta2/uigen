@@ -1,0 +1,10 @@
+[     101ms] [ERROR] Failed to load resource: the server responded with a status of 405 () @ https://claude.ai/sentry?o=1158394&p=4504646202490880:0
+[    1090ms] [WARNING] [antalytics] track() called before init(); event dropped @ https://assets-proxy.anthropic.com/claude-ai/v1/_next/static/chunks/8718-2945c9035edbe08c.js:11
+[    1110ms] [ERROR] Failed to load resource: the server responded with a status of 405 () @ https://claude.ai/sentry?o=1158394&p=4504646202490880:0
+[    1110ms] [ERROR] Failed to load resource: the server responded with a status of 405 () @ https://claude.ai/sentry?o=1158394&p=4504646202490880:0
+[    1140ms] [ERROR] Failed to load resource: the server responded with a status of 405 () @ https://claude.ai/sentry?o=1158394&p=4504646202490880:0
+[    2207ms] [WARNING] [Intercom] The App ID in your code snippet has not been set. Set it to your App ID found in settings to complete installation: https://app.intercom.com/a/apps/_/settings/web @ https://js.intercomcdn.com/frame-modern.7ba872b3.js:0
+[    2781ms] [WARNING] [antalytics] track() called before init(); event dropped @ https://assets-proxy.anthropic.com/claude-ai/v1/_next/static/chunks/8718-2945c9035edbe08c.js:11
+[    2980ms] [WARNING] [antalytics] track() called before init(); event dropped @ https://assets-proxy.anthropic.com/claude-ai/v1/_next/static/chunks/8718-2945c9035edbe08c.js:11
+[    4031ms] [WARNING] [antalytics] track() called before init(); event dropped @ https://platform.claude.com/_next/static/chunks/51863-b07adbc2c2acc652.js:11
+[    5138ms] [WARNING] [Intercom] The App ID in your code snippet has not been set. Set it to your App ID found in settings to complete installation: https://app.intercom.com/a/apps/_/settings/web @ https://js.intercomcdn.com/frame-modern.7ba872b3.js:0
