@@ -59,7 +59,17 @@ export function MainContent({ user, project }: MainContentProps) {
             <ResizablePanel defaultSize={65}>
               <div className="h-full flex flex-col bg-white">
                 {/* Top Bar */}
-                <div className="h-14 border-b border-neutral-200/60 px-6 flex items-center justify-between bg-neutral-50/50">
+                <div
+                  className="h-14 border-b border-neutral-200/60 px-6 flex items-center justify-between bg-neutral-50/50"
+                  onPointerDownCapture={() => {
+                    // Blur the preview iframe if it has focus so the tab triggers
+                    // register on the first click rather than the second
+                    const active = document.activeElement;
+                    if (active?.tagName === "IFRAME") {
+                      (active as HTMLElement).blur();
+                    }
+                  }}
+                >
                   <Tabs
                     value={activeView}
                     onValueChange={(v) =>
